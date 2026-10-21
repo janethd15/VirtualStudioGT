@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+      <title>Proyecto Final</title>
+
+</head>
+
+<body>
+
+  
+
+<header class="header">
+
+    <div class="marca">
+        <img src="img/logo.webp" alt="Logo de mi página" class="logo">
+
+        <div class="nombre-marca">
+            <span>Ingeniería en</span>
+            <h1>Sistemas</h1>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="proyecto.html">Proceso de Creación</a>
+        <a href="vidaU.html">Vida Universitaria</a>
+    </nav>
+
+</header>
+
+
+<main>
+ <section class="proyecto" id="proyecto">
+
+        <h1>MI PROYECTO</h1>
+
+        <div class="proyecto-contenido">
+
+            <div class="descripcion">
+                <p>
+                    Esta página web fue desarrollada utilizando HTML, CSS y JavaScript, con el propósito de crear una experiencia visual dinámica, creativa e interactiva. 
+A través de un diseño atractivo y una navegación intuitiva, se busca presentar información sobre la contabilidad administrativa y compartir experiencias de la vida universitaria,  incluyendo actividades como el aniversario y la convención.
+                </p>
+
+                <p>
+                   Asimismo, el proyecto tiene como objetivo aplicar los conocimientos adquiridos en desarrollo web,
+combinando estructura, diseño y funcionalidad para ofrecer una experiencia agradable al usuario.
+                </p>
+            </div>
+
+            <div class="foto-codigo">
+                <img src="img/foto_codigo.png" alt="Foto del código">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- LÍNEA DE TIEMPO -->
+    <main class="timeline" id="timeline">
+
+        <h2 class="timeline-titulo">LÍNEA DE TIEMPO</h2>
+
+        <div class="timeline-contenido">
+
+            <!-- EVIDENCIA 1 -->
+            <article class="evento derecha">
+
+                <h1 class="texto-evento">
+                   01. Planificación del proyecto
+                </h1>
+
+                <button class="evidencia" data-modal="modal1">
+                    06/10/2026
+                </button>
+
+            </article>
+
+            <!-- EVIDENCIA 2 -->
+            <article class="evento izquierda">
+
+                <button class="evidencia" data-modal="modal2">
+                    08/10/2026
+                </button>
+
+                <h1 class="texto-evento">
+                    02. Investigación y análisis
+                </h1>
+
+            </article>
+
+            <!-- EVIDENCIA 3 -->
+            <article class="evento derecha">
+
+                <h1 class="texto-evento">
+                   03. Diseño visual
+                </h1>
+
+                <button class="evidencia" data-modal="modal3">
+                    10–12/10/2026
+                </button>
+
+            </article>
+
+            <!-- EVIDENCIA 4 -->
+            <article class="evento izquierda">
+
+                <button class="evidencia" data-modal="modal4">
+                   13–21/10/2026
+                </button>
+
+                <h1 class="texto-evento">
+                    04. Desarrollo y programación
+                </h1>
+
+            </article>
+
+            <!-- EVIDENCIA 5 -->
+            <article class="evento derecha">
+
+                <h1 class="texto-evento">
+                    05. Pruebas y finalización
+                </h1>
+
+                <button class="evidencia" data-modal="modal5">
+                    22–24/10/2026
+                </button>
+
+            </article>
+
+    </main>
+
+    <!-- MODAL 1 -->
+    <div class="modal" id="modal1" role="dialog"
+         aria-modal="true" aria-labelledby="titulo1">
+
+        <div class="modal-contenido">
+
+            <button class="cerrar" aria-label="Cerrar">&times;</button>
+
+            <h2 id="titulo1">Evidencia 1: Planificación</h2>
+
+            <p>Lectura de las instrucciones del proyecto, identificación de los requisitos de evaluación y organización de las tareas necesarias para desarrollar la página web.</p>
+            <a href="https://cheqmark.io/editor?id=6ad9205fed31a13cbf3e0762&type=create">Listado</a>
+            <img src="img/evidencia1.png"Evidencia 1">
+
+            <p><strong>Resultado:</strong> planificación inicial del proyecto.</p>
+
+        </div>
+
+    </div>
+
+    <!-- MODAL 2 -->
+    <div class="modal" id="modal2" role="dialog"
+         aria-modal="true" aria-labelledby="titulo2">
+
+        <div class="modal-contenido">
+
+            <button class="cerrar" aria-label="Cerrar">&times;</button>
+
+            <h2 id="titulo2">Evidencia 2: Investigación</h2>
+
+            <p>Búsqueda de información relacionada con el tema, selección de datos relevantes e interpretación de la información que se presentaría en el sitio web.</p>
+            <a href="https://docs.google.com/document/d/16zQN5hsJ8HwLmmUkSDgEkCBYDEaK8PuGSrpe-nS3TpA/edit?usp=sharing">Documento</a>
+            <img src="img/evidencia2.png" alt="Evidencia 2">
+
+            <p><strong>Resultado:</strong> contenido seleccionado y organizado.</p>
+
+        </div>
+
+    </div>
+
+    <!-- MODAL 3 -->
+    <div class="modal" id="modal3" role="dialog"
+         aria-modal="true" aria-labelledby="titulo3">
+
+        <div class="modal-contenido">
+
+            <button class="cerrar" aria-label="Cerrar">&times;</button>
+
+            <h2 id="titulo3">Evidencia 3: Diseño visual</h2>
+
+            <p>Definición de la paleta de colores, selección de tipografías, búsqueda de imágenes y fotografías, distribución de las secciones y elaboración de la propuesta visual del sitio.</p>
+            <a href="https://canva.link/dqv0k06ryj7b2rd">Wireframe</a>
+            <img src="img/evidencia3.jpeg" alt="Evidencia 3">
+
+            <p><strong>Resultado:</strong> estructura visual definida.</p>
+
+        </div>
+
+    </div>
+
+    <!-- MODAL 4 -->
+    <div class="modal" id="modal4" role="dialog"
+         aria-modal="true" aria-labelledby="titulo4">
+
+        <div class="modal-contenido">
+
+            <button class="cerrar" aria-label="Cerrar">&times;</button>
+
+            <h2 id="titulo4">Evidencia 4: Desarrollo web</h2>
+
+            <p>Creación de la estructura con HTML, aplicación de estilos mediante CSS e implementación de funciones con JavaScript. Integración de imágenes, enlaces, navegación y elementos interactivos.</p>
+
+            <img src="img/evidencia4.png" alt="Evidencia 4">
+
+            <p><strong>Resultado:</strong> primera versión funcional del sitio web.</p>
+
+        </div>
+
+    </div>
+
+    <!-- MODAL 5 -->
+    <div class="modal" id="modal5" role="dialog"
+         aria-modal="true" aria-labelledby="titulo5">
+
+        <div class="modal-contenido">
+
+            <button class="cerrar" aria-label="Cerrar">&times;</button>
+
+            <h2 id="titulo5">Evidencia 5: Pruebas finales</h2>
+
+            <p>Verificación del funcionamiento de los botones y enlaces, revisión de estilos y colores, corrección de errores de código, comprobación de la visualización en distintos tamaños de pantalla y ajustes finales.</p>
+
+            <img src="img/evidencia5.png" alt="Evidencia 5">
+
+            <p><strong>Resultado:</strong> versión final revisada y lista para su presentación.</p>
+
+        </div>
+
+    </div>
+
+ <footer class="footer">
+
+    <div class="footer-superior">
+
+        <div class="footer-marca">
+            <img src="img/logo.webp"
+                 alt="Logo de la página"
+                 class="logo2">
+
+            <div>
+                <h2>Contabilidad Administrativa</h2>
+                <p>Ingeniería en Sistemas</p>
+                <p>Universidad Mariano Gálvez de Guatemala</p>
+            </div>
+        </div>
+
+        <div class="footer-enlaces">
+            <h3>Explora la página</h3>
+            <a href="index.html">Inicio</a>
+            <a href="proyecto.html">Proceso de creación</a>
+            <a href="vidaU.html">Vida universitaria</a>
+        </div>
+
+    </div>
+
+    <div class="footer-frase">
+        <p>
+            “La información contable transforma los datos
+            en decisiones y las decisiones en oportunidades.”
+        </p>
+    </div>
+
+    <div class="footer-inferior">
+        <p>Proyecto Final · Contabilidad II · 2026</p>
+        <p>Elaborado por Janeth Darlyne Orozco de León</p>
+        <p>Carné: 0903-26-5297</p>
+        <p>© 2026 Contabilidad Administrativa</p>
+    </div>
+
+</footer>
+<script src="script.js" defer></script>
+
+
+</main>
+</body>
+</html>
